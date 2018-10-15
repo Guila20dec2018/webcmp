@@ -11,11 +11,13 @@ body {
 p {
   line-height: 1.75;
 }
-
+/* Per non cambiare il colore del testo negli articoli, 
+ * giallo no si riesce a leggere bene sul bianco modificando
+ * questo nn altera gli altri perche usano il file agency.min.css
 a {
   color: #fed136;
 }
-
+*/
 a:hover {
   color: #fec503;
 }
