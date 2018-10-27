@@ -11,9 +11,7 @@ body {
 p {
   line-height: 1.75;
 }
-/* Per non cambiare il colore del testo negli articoli, 
- * giallo no si riesce a leggere bene sul bianco modificando
- * questo nn altera gli altri perche usano il file agency.min.css
+
 a {
   color: #fed136;
 }
@@ -21,7 +19,7 @@ a {
 a:hover {
   color: #fec503;
 }
-*/
+
 .text-primary {
   color: #fed136 !important;
 }
@@ -70,7 +68,7 @@ section h3.section-subheading {
   font-size: 18px;
   padding: 20px 40px;
 }
-/* for explanation idem line 14
+
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
@@ -81,7 +79,7 @@ section h3.section-subheading {
   border-color: #fec810 !important;
   color: white;
 }
-*/
+
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
