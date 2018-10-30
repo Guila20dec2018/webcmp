@@ -73,3 +73,22 @@ $(function() {
 $('#name').focus(function() {
   $('#success').html('');
 });
+
+/*For append in message the number of the articolo*
+$('.message').each(function() {
+    var default_value = this.value;
+    $(this).focus(function() {
+        if(this.value == default_value) {
+            this.value = '';
+        }
+    });
+    $(this).blur(function() {
+        if(this.value == '') {
+            this.value = default_value;
+        }
+    });
+});
+function example_append() {
+    $('#contactForm').append('Mi interessa l`articolo ' + ).val());
+}
+*/
